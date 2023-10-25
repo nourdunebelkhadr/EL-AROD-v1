@@ -1,0 +1,63 @@
+
+h1{
+    font-family: 'Mada', sans-serif;
+font-family: 'Rowdies', cursive;
+  color: rgb(117, 84, 84);
+font-size: 40px;
+}
+.container{
+    padding: 10px;
+}
+.contact-form{
+    max-width: 500px;
+    margin: 20px auto; 
+  
+}
+.contact-form  .form-group{
+    margin-bottom: 0;
+     position: relative;
+     /* background-color:black; */
+    
+}
+.contact-form input,
+.contact-form textarea{
+    margin-bottom:10px ;
+}
+.contact-form input{
+padding-left: 36px;
+} 
+.contact-form i{
+    height: 0;
+    float: left;
+    position: relative;
+    top: -36px;
+    left: 10px;
+    color: #999;
+}
+.contact-form  .asterisx{
+float: right;
+height: 0;
+font-size: 24px;
+color:red;
+position: absolute;
+right:10px ;
+top: 6px;
+
+}
+textarea{
+    height: 160px !important;
+}
+.contact-form .send-icons{
+    display: block;
+}
+.contact-form .custom-alert{
+    padding: 5px 16px;
+    display: none;
+}
+
+
+/* .contact-form input:not([tybe='submit']) + i {
+    
+} */
+
+   

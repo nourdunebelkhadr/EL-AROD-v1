@@ -1,0 +1,376 @@
+
+.overflow{
+    overflow-y: scroll !important;
+    overflow: hidden ;
+}
+p{
+  font-size:x-large;
+}
+.result {
+    width: 80%;
+    position: relative;
+    right: 30%;
+    top: 18%;
+}
+.result1{
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.result2{
+    position: absolute;
+    left: 0;
+    width: 65%;
+}
+textarea {  
+    width: 50%; /* تعيين العرض بنسبة مئوية 100% ليأخذ عرض العمود الواحد في الشبكة */
+    height: 40px;    
+    font-size: xx-large;
+    resize: none;
+    border: 1px solid greenyellow;
+}
+
+img{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: none;
+  width: 40px;
+ height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  transform: rotate(-180deg);
+}
+
+img:hover{
+  background-color: greenyellow;
+  cursor: pointer;
+}
+#space{
+  width: 200px;
+ height: 40px; 
+ margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: green;
+    border-radius: 15px;
+}
+#container{
+    width: 550px;
+    height: 40px;
+    font-size: 18px; 
+}
+#container p{
+  color: rgb(22, 17, 17);
+  font-weight: bold;
+  font-family: 'Amiri Quran', serif;
+}
+label{
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Mada', sans-serif;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    display: none;
+}
+#ElBahr{
+  height: 40px;
+  aspect-ratio: 1 / 1;
+  animation: 2s linear 0s 1 alternate sun-rise;
+}
+#bahr{
+  aspect-ratio: 1 / 1;
+  animation: 2s linear 0s 1 alternate run-to-resulta;
+}
+
+.p{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p2{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p3{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p4{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+
+  .p11{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p21{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p31{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+ .p41{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+  .submitButton{
+    height: 40px;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate sun-rise;
+  }
+  @keyframes sun-rise {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+  
+  .pp{
+  display: block;
+  height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+  .pp2{
+  height: 40px;
+  width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+ .pp3{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+ .pp4{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+
+  .pp11{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+ .pp21{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+ .pp31{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+ .pp41{
+    height: 40px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+  
+  @keyframes run-to-resulta {
+    from {
+      /* pushes the sun down past the viewport */
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  #Explanation{
+    background-color: rgb(166, 166, 224);
+    width: 60%;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    transition: all 2s ease-out;
+    animation: 2s linear 0s 1 alternate run-to-resulta;
+  }
+  #Explanation h2{
+     margin-right: 10px;
+     margin-top: 40px;
+     font-weight: bold;
+     color: gray;
+    transition: all 1s ease-out;
+  }
+  #Explanation:hover h2{
+   font-size: xx-large;
+ }
+  #close{
+    position: relative;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 50%;
+  }
+  #close:hover{
+    background-color: brown;
+    cursor: pointer;
+  }
+ #close div:last-child{
+width: 1px;
+height: 20px;
+background-color: black;
+transform: rotate(-45deg);
+margin-right: 20px;
+margin-top: 10px;
+ }
+ #close div:first-child{
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+#close:hover div{
+  transform: rotate(90deg);
+  transition: all 1s ;
+}
+
+/*Bohor*/
+#Bohor{
+  position: absolute;
+  right: 16%;
+  top: 20%;
+  height: 40vh;
+  width: 10em;
+  box-shadow:
+  inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+  0 0 0 2px rgb(255, 255, 255),
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+background-color: rgba(251, 255, 255, 0.908);
+  overflow-x: hidden;
+  display: none;
+  pointer-events: auto;
+  text-align: center;
+  position: fixed;
+}
+.bohor{
+  position: absolute;
+  right: 7% !important;
+}
+#Bohor ul>li{
+  height: 40px ;
+  width: 10em;
+  margin: 10px 0 0 0;
+}
+#Bohor ul>li:hover{
+  background-color: rgb(146, 184, 199);
+  border-bottom: 1px solid rgb(228, 18, 18);
+  text-decoration:underline;
+}
+/*main-box*/
+#main_box{
+  margin-right: 20%;
+  margin-left: 2%;
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  background-color: rgba(251, 255, 255, 0.908);
+}
+.main_box{
+  margin-right: 9.5% !important;
+}
+  @media screen and (max-width:768px) {
+    .result{
+      width: 100%;
+      top: 10%;
+      right:12%;
+    }
+    .result_collapse{
+      right:22%;
+    }
+    #container{
+      width: 150%;
+      height: 40px;
+      font-size: 16; 
+  
+  }
+  .result1,
+  .result2{
+    width: 100%;
+  }
+  .result1{
+    position: absolute;
+    top: 0;
+  }
+  .result2{
+    position: absolute;
+    top: 100px;
+  }
+  .result21{
+    position: absolute;
+    top: 600px;
+  }
+  .ElBahr{
+    position: absolute;
+    top: 1180px;
+  }
+  #text,
+  #text2{
+    width:75%;
+    margin-right:2px ;
+  }
+  #main{
+   height: 2000px; 
+  }
+  
+  #main_box{
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .main_box{
+    margin-right: 20% !important;
+  }
+
+  }
+  
